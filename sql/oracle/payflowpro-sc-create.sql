@@ -13,6 +13,7 @@ begin
   foo := acs_sc_impl.new(
 	   'PaymentGateway',               	-- impl_contract_name
            'payflowpro',                        -- impl_name
+           'Payment Gateway',                   -- impl_pretty_name
 	   'payflowpro'                         -- impl_owner_name
   );
 
