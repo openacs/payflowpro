@@ -68,7 +68,7 @@
 create table payflowpro_result_log (
   transaction_id            varchar(20),
   txn_attempted_type        varchar(25),
-  txn_attempted_time        timestamp,
+  txn_attempted_time        timestamptz,
   txn_returned_type         varchar(25),
   errmsg                    varchar(200),
   auth_code                 varchar(25),
