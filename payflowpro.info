@@ -16,7 +16,7 @@
         <summary>PayFlowPro payment gateway.</summary>
         <release-date>2002-05-13</release-date>
         <vendor url="http://www.furfly.net">furfly.net, LLC</vendor>
-        <description format="text/html">This is a payment gateway for Verisign's PayFlowPro.</description>
+        <description format="text/html">This is a payment gateway for Verisign's PayFlowPro. Note that there are problems with the supplied libraries from verisign and it is anticipated that this package will be deprecated or removed see &lt;a href="http://openacs.org/forums/message-view?message_id=149360"&gt;TIP 33&lt;/a&gt;</description>
 
         <requires url="payment-gateway" version="4.6"/>
 
