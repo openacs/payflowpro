@@ -7,7 +7,7 @@
     <initial-install-p>f</initial-install-p>
     <singleton-p>f</singleton-p>
 
-    <version name="4.5b" url="http://openacs.org/repository/download/apm/payflowpro-4.5b.apm">
+    <version name="4.6" url="http://openacs.org/repository/download/apm/payflowpro-4.6.apm">
     <database-support>
         <database>oracle</database>
         <database>postgresql</database>
@@ -18,7 +18,7 @@
         <vendor url="http://www.furfly.net">furfly.net, LLC</vendor>
         <description format="text/html">This is a payment gateway for Verisign's PayFlowPro.</description>
 
-        <requires url="payment-gateway" version="4.5b"/>
+        <requires url="payment-gateway" version="4.6"/>
 
         <files>
             <file type="package_spec" path="payflowpro.info"/>
