@@ -6,8 +6,8 @@ ad_page_contract {
   @creation-date  1/13/02
 } {
 } -properties {
-  package_name
-  context_bar
+  package_name:onevalue
+  context:onevalue
   all_transactions:multirow
 }
 
@@ -22,7 +22,7 @@ set package_name $info(package_name)
 ad_require_permission [ad_conn package_id] "admin"
 
 # set context bar
-set context_bar [ad_context_bar]
+set context [list "transactions"]
 
 # get data from table
 db_multirow all_transactions get_transactions ""

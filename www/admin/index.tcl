@@ -7,7 +7,7 @@ ad_page_contract {
 } {
 } -properties {
   package_name
-  context_bar
+  context
   all_transactions:multirow
 }
 
@@ -22,4 +22,4 @@ set package_name $info(package_name)
 ad_require_permission [ad_conn package_id] "admin"
 
 # set context bar
-set context_bar [ad_context_bar]
+set context [list]
