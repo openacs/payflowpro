@@ -1,6 +1,6 @@
 <master>
-<property name="title">View @package_name@ Transactions</property>
-<property name="context">@context@</property>
+<property name="title">View @package_name;noquote@ Transactions</property>
+<property name="context">@context;noquote@</property>
 
 All transactions which have been processed via @package_name@:
 <p>
