@@ -17,7 +17,6 @@ ad_page_contract {
 set package_key [ad_conn package_key]
 array set info [acs_sc_call PaymentGateway Info [list] $package_key]
 set package_name $info(package_name)
-set cleaned_package_key [apm_tcl_or_sql_name_from_package_key $package_key]
 
 # make sure user is authorized
 ad_require_permission [ad_conn package_id] "admin"
