@@ -2,7 +2,7 @@
 
 <queryset>
   <rdbms>
-    <type>poatgresql</type>
+    <type>postgresql</type>
     <version>7.1</version>
   </rdbms>
 
