@@ -1,0 +1,8 @@
+<master>
+<property name="title">View @package_name@ Transactions</property>
+
+<h2>View @package_name@ Transactions</h2>
+@context_bar@
+<hr>
+
+Right now there is only one option here, to <a href="transactions">view</a> all transactions in the gateway log.  In the future, more options will be created, such as viewing transactions by date range and searching for particular transactions.
