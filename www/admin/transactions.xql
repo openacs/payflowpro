@@ -6,7 +6,7 @@
           <querytext>
             select *
             from ${package_key}_result_log
-            order by txn_attempted_time"
+            order by txn_attempted_time
           </querytext>
       </fullquery>
 
